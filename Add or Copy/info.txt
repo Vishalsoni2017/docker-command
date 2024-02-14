@@ -1,0 +1,6 @@
+COPY:
+- used to copy files and directories.
+ADD:
+- used to fetch files, it's recommended to use ADD instead of RUN wget, because it ensures a more precise build cache
+- has built-in support for checksum validation of the remote resources
+- has a protocol for parsing branches, tags, and subdirectories from Git URLs
