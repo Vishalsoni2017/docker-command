@@ -1,0 +1,5 @@
+You can use ADD and COPY to perform the same action: copy a file. However, it is recomended to use only COPY for that. Modify existed /root/Dockerfile :
+
+  copy file copy_file.txt with keyword COPY
+  copy file add_file.txt with keywork ADD
+  build image app-image , confirm that files were copied to the container
