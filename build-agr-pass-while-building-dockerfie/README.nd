@@ -1,0 +1,2 @@
+docker build -t web:1 . --for default <br>
+docker build --build-arg HTTPD_VERSION=bookworm -t web:2 .
